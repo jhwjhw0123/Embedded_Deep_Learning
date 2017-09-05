@@ -1,0 +1,13 @@
+mingw32-g++.exe -Wall -fexceptions  -g  -std=c++11 -w    -c ".\Neural_Network_project_eigen_template\CNN.cpp" -o obj\Debug\CNN.o
+mingw32-g++.exe -Wall -fexceptions  -g  -std=c++11 -w    -c ".\Neural_Network_project_eigen_template\Demo.cpp" -o obj\Debug\Demo.o
+mingw32-g++.exe -Wall -fexceptions  -g  -std=c++11 -w    -c ".\Neural_Network_project_eigen_template\DNN.cpp" -o obj\Debug\DNN.o
+mingw32-g++.exe -Wall -fexceptions  -g  -std=c++11 -w    -c ".\Neural_Network_project_eigen_template\MatrixOperation.cpp" -o obj\Debug\MatrixOperation.o
+mingw32-g++.exe -Wall -fexceptions  -g  -std=c++11 -w    -c ".\Neural_Network_project_eigen_template\Optimizer.cpp" -o obj\Debug\Optimizer.o
+mingw32-g++.exe -Wall -fexceptions  -g  -std=c++11 -w    -c ".\Neural_Network_project_eigen_template\ParaSave.cpp" -o obj\Debug\ParaSave.o
+mingw32-g++.exe -Wall -fexceptions  -g  -std=c++11 -w    -c ".\Neural_Network_project_eigen_template\RNN.cpp" -o obj\Debug\RNN.o
+mingw32-g++.exe -Wall -fexceptions  -g  -std=c++11 -w    -c ".\Neural_Network_project_eigen_template\StatisticMath.cpp" -o obj\Debug\StatisticMath.o
+mingw32-g++.exe  -o bin\Debug\Neural_Network_test.exe obj\Debug\CNN.o obj\Debug\Demo.o obj\Debug\DNN.o obj\Debug\MatrixOperation.o obj\Debug\Optimizer.o obj\Debug\ParaSave.o obj\Debug\RNN.o obj\Debug\StatisticMath.o    
+Output size is 16.02 MB
+
+
+/Users/vcmo/Desktop/ARM_compiler/gcc-arm-none-eabi-mac/bin/arm-none-eabi-g++ -mtune=cortex-m4 --specs=nosys.specs *.cpp -std=c++11 -static -t -I ./MFixedPoint/include/ -I ./mnist/include -o test.out
