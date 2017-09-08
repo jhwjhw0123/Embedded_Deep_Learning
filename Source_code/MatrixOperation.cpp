@@ -1,9 +1,3 @@
-/*******************************
-*@function: Essential matrix oprerations for the neural network
-*@element: Vectors as containers
-*@author: Chen Wang, Dept. of Computer Science, University College London
-********************************/
-
 #include <iostream>
 #include <stdlib.h>
 #include <stdexcept>
