@@ -1,10 +1,3 @@
-/**************************
-*@description: This is a file that demonstrate the usage of the library
-*@usage: run the code with other source and head files
-*@author: Chen Wang, Dept. of Computer Science, University College London
-*@version: 0.01
-***************************/
-
 /*******This demo shows a three-hidden layer neural network********
 layer1: linear 1000 nodes + RELU
 layer2: linear 500 nodes + RELU
