@@ -1,8 +1,3 @@
-/********************************************
-*@function: Implementations of CNN-related functions
-*@author: Chen Wang, Dept. of Computer Science, Univerisity College London
-*@version: 0.0.1
-********************************************/
 #include <cmath>
 #include <iostream>
 #include <vector>
