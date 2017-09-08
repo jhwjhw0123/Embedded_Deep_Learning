@@ -1,8 +1,3 @@
-/**********************
-*@function: Recurrent Neural Network Source Codes
-*@author: Chen Wang, Dept. of Computer Science, University College London
-*@version: 0.0.1
-***********************/
 #include <cmath>
 #include <iostream>
 #include <vector>
